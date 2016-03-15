@@ -1,0 +1,32 @@
+{
+    "schedules": [
+        {
+            "end": "2016/11/07 9:00",
+            "start": "2016/05/10 8:30",
+            "title": "Petit déjeuner"
+        },
+        {
+            "end": "2016/11/07 9:40",
+            "start": "2016/05/10 9:00",
+            "title": "Keynote d'ouverture",
+            "css":{"background-color":"#FF38F3"}
+        }
+
+    ],
+    "events": [
+        {
+            "date": "2014/11/07 11:00",
+            "title": "event1"
+        },
+        {
+            "date": "2014/11/07 10:00",
+            "title": "event2",
+            "css":{"background-color":"#FF38F3"}
+        }
+
+    ],
+    "options":{
+        "time":true,
+        "timeFormat":"HH:mm"
+    }
+}
