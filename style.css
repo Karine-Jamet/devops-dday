@@ -707,7 +707,8 @@ footer .cite .roseQL{
 
 .formContact {
   position: fixed;
-  width: 500px;
+  width: 80%;
+  max-width: 500px;
   height: auto;
   top: 10%;
   left: 50%;
@@ -1131,6 +1132,14 @@ z-index: 500;
 
 footer .cite{
   display:none;
+}
+
+.formContact{
+  width: 80%;
+  left:10%;
+  margin: 0;
+  padding: 5px;
+  padding-top: 20px;
 }
 
 }

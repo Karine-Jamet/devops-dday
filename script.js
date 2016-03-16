@@ -37,7 +37,7 @@ $(document).ready(function() {
 
     $.ajax({
         method: "POST",
-        url: "https://formspree.io/karine.jamet203@gmail.com",
+        url: "https://formspree.io/l.bernard@treeptik.fr",
         data: {
           name: name,
           prenom: prenom,
