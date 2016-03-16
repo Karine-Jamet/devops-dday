@@ -26,21 +26,25 @@ $(document).ready(function() {
     var name = $("input[name=name]").val();
     var prenom = $("input[name=prenom]").val();
     var message = $("textarea").val();
-    console.log(message);
+    var entreprise = $("input[name=entreprise]").val();
     var reply = $("input[name=email]").val();
+
     $("input[type=text]").val("");
+    $("input[name=email]").val("");
     $("textarea").val("");
+    $("input[name=entreprise]").val("");
 
 
     $.ajax({
         method: "POST",
         url: "https://formspree.io/karine.jamet203@gmail.com",
         data: {
-          name: name+"  "+prenom,
+          name: name,
           prenom: prenom,
+          entreprise : entreprise,
           _subject: subject,
           _replyto: reply,
-          message: reply+"    "+message
+          message: message
         },
         dataType: "json"
       })

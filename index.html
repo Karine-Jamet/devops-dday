@@ -223,12 +223,16 @@ techniques mais très abordables.</em><i class="fa fa-quote-right roseQL"></i><i
   <div class="formContact hide">
     <div class="cancel">X</div>
     <form action="//formspree.io/your@email.com" method="POST">
-      <label name="name">Nom</label>
-      <input type="text" name="name" required/>
-      <label name="prenom">Prénom</label>
-      <input type="text" name="name" required/>
+      <div class="nomPrenom">
+        <label name="name">Nom</label>
+        <label name="prenom">Prénom</label>
+        <input type="text" name="name" required/>
+        <input type="text" name="prenom" required/>
+      </div>
+      <label name="entreprise">Entreprise</label>
+      <input type="text" name="entreprise" required/>
       <label name="email">Email</label>
-      <input type="email" name="_replyto" required />
+      <input type="email" name="email" required />
       <label name="message">Votre message</label>
       <textarea name="message" rows="4" ></textarea>
       <input type="submit" value="Envoyer">
@@ -238,7 +242,6 @@ techniques mais très abordables.</em><i class="fa fa-quote-right roseQL"></i><i
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="lib/unslider-master/src/js/unslider.js"></script>
   <script src="lib/FlipClock-master/compiled/flipclock.min.js"></script>
-  <!-- <script src="lib/schedule-js/jquery.graspSchedule.js"></script> -->
   <script src="script.js"></script>
 </body>
 

@@ -764,6 +764,14 @@ footer .cite .roseQL{
   border-bottom:2px solid white;
 }
 
+.nomPrenom input, .nomPrenom label{
+  width: 35%;
+}
+
+label[name=prenom], input[name=prenom]{
+  margin-left: 10%;
+}
+
 .formContact textarea {
   display: inline-block;
   width: 80%;
