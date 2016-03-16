@@ -36,11 +36,11 @@ $(document).ready(function() {
         method: "POST",
         url: "https://formspree.io/karine.jamet203@gmail.com",
         data: {
-          name: name."  ".prenom,
+          name: name+"  "+prenom,
           prenom: prenom,
           _subject: subject,
           _replyto: reply,
-          message: reply."    ".message
+          message: reply+"    "+message
         },
         dataType: "json"
       })
