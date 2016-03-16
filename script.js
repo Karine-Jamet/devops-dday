@@ -10,10 +10,17 @@ $(document).ready(function() {
     language: 'fr',
   });
   var subject = "";
+
+$("a[href=contact]").on("click", function(e) {
+  e.preventDefault();
+  $(".formContact").removeClass("hide");
+  subject = "Contact Devops-DDay";
+});
+
   $("a[href=#sponsor]").on("click", function(e) {
     e.preventDefault();
     $(".formContact").removeClass("hide");
-    subject = "Sponsor Devops-Day";
+    subject = "Sponsor Devops-DDay";
   });
 
   $(".cancel").on("click", function(e) {
@@ -29,10 +36,12 @@ $(document).ready(function() {
     var entreprise = $("input[name=entreprise]").val();
     var reply = $("input[name=email]").val();
 
+
     $("input[type=text]").val("");
     $("input[name=email]").val("");
     $("textarea").val("");
     $("input[name=entreprise]").val("");
+    $(".formContact").addClass("hide");
 
 
     $.ajax({
@@ -50,7 +59,7 @@ $(document).ready(function() {
       })
       .done(function() {
         alert("Votre e-mail à bien était envoyé !");
-        $(".formContact").addClass("hide");
+        // $(".formContact").addClass("hide");
       });
   });
 

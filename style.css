@@ -1,12 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,700);
+@import url(https://fonts.googleapis.com/css?family=Slabo+27px);
 
-/*Pour reduire le timer :
-
-#countdown{
-transform:scale(0.5);
-
-*/
 
 
 html, body {
@@ -29,7 +24,7 @@ header {
   min-height: 100%;
     padding-bottom: 25px;
   width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('images/header.png');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('images/header.jpeg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -49,6 +44,17 @@ header h1 {
   margin: 0;
   text-align: center;
   padding-top: 80px;
+}
+
+header .edition {
+  position: relative;
+  top : -25px;
+  left: 165px;
+  font-family: 'Slabo 27px', serif;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+
 }
 
 header .middle {
@@ -75,7 +81,7 @@ header h2 {
   text-align: center;
   color:white;
   font-size: 40px;
-  margin: 7px;
+  margin: 0;
 }
 .rose {
   color: #FF38F3;
@@ -158,58 +164,22 @@ header .bottomButton {
   width: 100%;
   margin-top: 5%;
   text-align: center;
-}
-  .starL{
-  float:left;
-  width: 33%;
-  height: 60px;
-  background:
-  linear-gradient(324deg, #000 4%,   transparent 4%) -70px 43px,
-  linear-gradient( 36deg, #000 4%,   transparent 4%) 30px 43px,
-  linear-gradient( 72deg, #FFF 8.5%, transparent 8.5%) 30px 43px,
-  linear-gradient(288deg, #fff 8.5%, transparent 8.5%) -70px 43px,
-  linear-gradient(216deg, #fff 7.5%, transparent 7.5%) -70px 23px,
-  linear-gradient(144deg, #fff 7.5%, transparent 7.5%) 30px 23px,
-
-  linear-gradient(324deg, #000 4%,   transparent 4%) -20px 93px,
-  linear-gradient( 36deg, #000 4%,   transparent 4%) 80px 93px,
-  linear-gradient( 72deg, #fff 8.5%, transparent 8.5%) 80px 93px,
-  linear-gradient(288deg, #fff 8.5%, transparent 8.5%) -20px 93px,
-  linear-gradient(216deg, #fff 7.5%, transparent 7.5%) -20px 73px,
-  linear-gradient(144deg, #fff 7.5%, transparent 7.5%) 80px 73px;
-  background-color: #000;
-  background-size: 100px 100px;
+  height:60px;
+  background-color: black;
+  background-image: url("images/star.png");
+  background-repeat: repeat-x;
+  background-position: center;
 
 }
+
 
 .sponsor h2 {
-  float:left;
+  text-align: center;;
   margin: auto;
   background-color: black;
-  width: 33%;
+  width: 415px;
 }
 
-
-.starR{
-  width: 100%;
-  height: 60px;
-  background:
-  linear-gradient(324deg, #000 4%,   transparent 4%) -70px 43px,
-  linear-gradient( 36deg, #000 4%,   transparent 4%) 30px 43px,
-  linear-gradient( 72deg, #FFF 8.5%, transparent 8.5%) 30px 43px,
-  linear-gradient(288deg, #fff 8.5%, transparent 8.5%) -70px 43px,
-  linear-gradient(216deg, #fff 7.5%, transparent 7.5%) -70px 23px,
-  linear-gradient(144deg, #fff 7.5%, transparent 7.5%) 30px 23px,
-
-  linear-gradient(324deg, #000 4%,   transparent 4%) -20px 93px,
-  linear-gradient( 36deg, #000 4%,   transparent 4%) 80px 93px,
-  linear-gradient( 72deg, #fff 8.5%, transparent 8.5%) 80px 93px,
-  linear-gradient(288deg, #fff 8.5%, transparent 8.5%) -20px 93px,
-  linear-gradient(216deg, #fff 7.5%, transparent 7.5%) -20px 73px,
-  linear-gradient(144deg, #fff 7.5%, transparent 7.5%) 80px 73px;
-  background-color: #000;
-  background-size: 100px 100px;
-}
 
 .sponsor h2:hover {
   text-decoration: underline;
@@ -338,7 +308,7 @@ text-align: center;
 
 section h2 {
   text-align: left;
-margin-left: 30px;
+/*margin-left: 30px;*/
 font-size: 30px;
 }
 
@@ -422,27 +392,39 @@ section .first{
   margin-bottom: 14px;
 }
 
-.speakerDesc h3::first-letter{
-  color:#32CBFF;
-}
-
-.speaker .toColor::first-letter {
-    color:#FF38F3;
-}
-
-.speakerDesc span{
-  color:#00FF5A;
-}
 
 /* ------------------------------------ Agenda ---------------------------------*/
 .agenda {
-  padding-left: 20%;
-  padding-right: 20%;
-  height: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
+  height: auto;
   background-color: white;
   border-top: 4px dashed black;
+  color: black;
 }
 
+.agenda img {
+  vertical-align: top;
+  margin: 10px;
+  max-width: 98%;
+  height: auto;
+}
+
+.agenda .firstImg{
+  margin-top: 8px;
+}
+.agenda p{
+  width: 100%;
+  text-align: center;
+}
+.agenda em {
+  width: 100%;
+  font-size: 12px;
+}
+
+.agenda h2 {
+  padding-left: 12%;
+}
 
 
 /*----------------               Slider                                ------------*/
@@ -809,6 +791,7 @@ label[name=prenom], input[name=prenom]{
     overflow-x: hidden;
   }
 
+
 header{
   margin: 0;
   min-height: 110%;
@@ -923,19 +906,16 @@ header .bottomButton{
 
   .sponsor{
     margin-top: 10%;
-  }
-  .starL{
-    float:left;
-    width: 25%;
-    height: 60px;
-
-
+    background-position: left;
   }
 
   .sponsor h2 {
     line-height: 60px;
     width: 50%;
   }
+
+  /*---------------------   Sponsor    Telephone  ---------------------*/
+
 
 .sponsorSec{
   padding: 0;
@@ -944,12 +924,15 @@ header .bottomButton{
 
 .sponsorSec h2 {
 font-size: 25px;
-text-align: center;
+text-align: left;
+margin-left: 10px;
 }
 
 .sponsorSec img{
   max-width:70%;
 }
+
+/*---------------------   Speaker    Telephone  ---------------------*/
 
 
 .speaker{
@@ -961,16 +944,22 @@ text-align: center;
 
 .speaker h2 {
   font-size: 25px;
-  text-align: center;
+  text-align: left;
+  margin-left: 10px;
+
 }
 
-/*---------------------   Présentation     ---------------------*/
+/*---------------------   Présentation    Telephone  ---------------------*/
 
 .presentation {
   padding: 0;
   padding-bottom: 30px;
   text-align: center;
 
+}
+
+.presentation h2 {
+    margin-left: 10px;
 }
 
 .presentation .topSection{
@@ -990,8 +979,22 @@ text-align: center;
 .presentation .first{
   margin-bottom: 20px;
 }
+/*---------------------   Présentation    Agenda  ---------------------*/
+.agenda {
+  padding: 5px;
+}
+.agenda h2 {
+  margin-left: 5px;
+  padding-left: 0;
+}
+
+.agenda img {
+  margin-left: 0;
+  margin-right: 0;
+}
 
 
+/*---------------------   Présentation    Slider  ---------------------*/
 .slider{
   height: 100vw;
   overflow: hidden;
