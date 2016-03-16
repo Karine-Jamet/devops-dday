@@ -30,7 +30,7 @@ $(document).ready(function() {
     var reply = $("input[name=email]").val();
     $("input[type=text]").val("");
     $("textarea").val("");
-    $(".formContact").addClass("hide");
+
 
     $.ajax({
         method: "POST",
@@ -46,8 +46,7 @@ $(document).ready(function() {
       })
       .done(function() {
         alert("Votre e-mail à bien était envoyé !");
-        submenu.fadeOut();
-
+        $(".formContact").addClass("hide");
       });
   });
 
