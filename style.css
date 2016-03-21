@@ -28,6 +28,7 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  overflow: hidden;
 }
 
 header .tarif{
@@ -782,6 +783,14 @@ label[name=prenom], input[name=prenom]{
   cursor:pointer;
 }
 
+@media screen and (min-width:640px) and (max-width: 740px) {
+  #countDown{
+    width: 150%;
+    margin-left: 5%;
+    transform: scale(0.8);
+}
+
+}
 
 /*--------------- Version pour telephone ----------------*/
 
@@ -863,7 +872,15 @@ header{
     margin-bottom: 5px;
     padding-right: 0;
   }
-
+  header .edition {
+    top: -13px;
+    left: 62px;
+  }
+  .containerCountdown {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+  }
   #countDown {
     width: 200%;
     transform: scale(0.4);
