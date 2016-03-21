@@ -14,14 +14,9 @@ $(document).ready(function() {
 $("a[href=contact]").on("click", function(e) {
   e.preventDefault();
   $(".formContact").removeClass("hide");
-  subject = "Contact Devops-DDay";
+  subject = "Inscription Docker";
 });
 
-  $("a[href=#sponsor]").on("click", function(e) {
-    e.preventDefault();
-    $(".formContact").removeClass("hide");
-    subject = "Sponsor Devops-DDay";
-  });
 
   $(".cancel").on("click", function(e) {
     e.preventDefault();
@@ -32,6 +27,7 @@ $("a[href=contact]").on("click", function(e) {
     event.preventDefault();
     var name = $("input[name=name]").val();
     var prenom = $("input[name=prenom]").val();
+    var dateFrom = $("input[name=date]").val();
     var message = $("textarea").val();
     var entreprise = $("input[name=entreprise]").val();
     var reply = $("input[name=email]").val();
@@ -40,17 +36,19 @@ $("a[href=contact]").on("click", function(e) {
     $("input[type=text]").val("");
     $("input[name=email]").val("");
     $("textarea").val("");
+    $("input[name=date]").val("");
     $("input[name=entreprise]").val("");
     $(".formContact").addClass("hide");
 
 
     $.ajax({
         method: "POST",
-        url: "https://formspree.io/l.bernard@treeptik.fr",
+        url: "https://formspree.io/contact@treeptik.fr",
         data: {
           name: name,
           prenom: prenom,
           entreprise : entreprise,
+          date : dateFrom,
           _subject: subject,
           _replyto: reply,
           message: message
@@ -59,7 +57,6 @@ $("a[href=contact]").on("click", function(e) {
       })
       .done(function() {
         alert("Votre e-mail à bien était envoyé !");
-        // $(".formContact").addClass("hide");
       });
   });
 

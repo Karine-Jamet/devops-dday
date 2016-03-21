@@ -114,11 +114,19 @@ header h2 {
 }
 
 header .bottomButton {
-  padding-top: 6%;
+  padding-top: 20px;
   vertical-align: middle;
   margin: auto;
   text-align: center;
 }
+
+header iframe {
+  vertical-align: middle;
+  margin-right: 3%;
+  width: 30%;
+  height: 16.8vw;;
+}
+
 .contact {
   font-size: 20px;
   vertical-align: middle;
@@ -147,8 +155,8 @@ header .bottomButton {
   text-align: center;
   border: 3px solid #FF38F3;
   box-shadow: 3px 8px 0px 0px #FF38F3;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 3%;
+  margin-right: 3%;
   transition: box-shadow 0.2s;
   font-size: 20px;
 }
@@ -800,6 +808,9 @@ label[name=prenom], input[name=prenom]{
     overflow-x: hidden;
   }
 
+header iframe{
+  display:none;
+}
 
 header{
   margin: 0;
