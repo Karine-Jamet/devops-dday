@@ -1102,7 +1102,9 @@ footer .logo{
   height: 23px;
   display : inline-block;
   vertical-align: bottom;
-  position:static;
+  position:absolute;
+  right : 5px;
+  bottom: 59px;
 }
 
 footer .adresse{
