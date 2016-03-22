@@ -747,7 +747,7 @@ footer .cite .roseQL{
   color:#FF38F3;
 }
 
-/***(-----------------------   Formulaire de contact ---------------------------)****/
+/***-----------------------   Formulaire de contact ------------------------------****/
 
 
 
@@ -875,13 +875,59 @@ header{
   padding-bottom: 15px;
 }
 
+header #editionBubble{
+  font-size: 85px;
+
+}
+header .edition {
+  top : -119px;
+  left: 156px;
+  font-size: 30px;
+  transform: rotate(-23deg);
+}
+
+.edition .editionText{
+  top:-69px;
+  left:0;
+  font-size: 20px;
+}
+
+header .earlyBirda{
+text-align: left;
+}
+header .earlyBird {
+position: relative;
+top:0;
+left:0;
+width: 100%;
+height: auto;
+padding:10px;
+transform: none;
+margin-top: 10px;
+margin-bottom: 10px;
+
+}
+header .earlyBird p {
+display: block;
+margin: 0;
+width: auto;
+font-weight: bold;
+margin: auto;
+line-height: 25px;
+}
+header .earlyBird .buy {
+display:none;
+}
+
   header .tarif{
     position:static;
-    margin-top: 0;
+    margin: 0;
     padding-top: 15px;
     font-size: 15px;
     text-align: center;
     display: inline-block;
+    transform: none;
+    width: 100%;
   }
 
   header .fa{
@@ -904,7 +950,7 @@ header{
     font-weight: bolder;
     margin: 0;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 10px;
   }
 
   header h2 {
@@ -912,8 +958,9 @@ header{
     color:white;
     font-size: 20px;
     margin: 7px;
-  }
+    margin-top: -80px;
 
+  }
 
 
   header .middle {
@@ -938,11 +985,7 @@ header{
     margin-bottom: 5px;
     padding-right: 0;
   }
-  header .edition {
-    top: -13px;
-    left: 62px;
-    transform:rotate(90deg);
-  }
+
   .containerCountdown {
     width: 100%;
     text-align: center;
