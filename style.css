@@ -31,12 +31,47 @@ header {
   overflow: hidden;
 }
 
-header .tarif{
+header .earlyBird {
+  background-color: white;
+  transform: rotate(-40deg);
+  color:black;
+  text-align: center;
+  position: absolute;
+  top:83px;
+  left:-210px;
+  width: 800px;
+  margin: auto;
+  box-shadow: 1px 1px 15px black;
+
+}
+header .earlyBird p {
+  color: black;
+  color:rgba(0, 0, 0, 0.5);
+  text-align: center;
+  margin: auto;
+  font-size: 20px;
+  margin-left: 194px;
+}
+header .earlyBird .buy {
+  color:white;
   position:absolute;
-  top:15px;
-  left: 1%;
+  bottom: -30px;
+  left:185px;
+  font-size: 30px;
+  margin-left: 0;
+  text-shadow: 1px 1px 5px black;
+}
+
+header .tarif{
+    transform: rotate(-40deg);
+  position:absolute;
+  top:56px;
+  left: -24px;
   font-size: 18px;
   text-align: left;
+  z-index: 1000;
+  /*text-shadow: 1px 1px 8px black;*/
+
 }
 header h1 {
   font-size: 80px;
@@ -47,16 +82,35 @@ header h1 {
   padding-top: 80px;
 }
 
-header .edition {
-  position: relative;
-  top : -25px;
-  left: 165px;
-  font-family: 'Slabo 27px', serif;
-  font-size: 20px;
-  margin: 0;
-  padding: 0;
+header #editionBubble{
+  font-size: 150px;
+  color:white;
+  text-align: center;
 
 }
+header .edition {
+  width: 100%;
+  text-align: center;
+  position: relative;
+  top : -84px;
+  left: 307px;
+  font-family: 'Slabo 27px', serif;
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+  transform: rotate(23deg);
+}
+
+.edition .editionText{
+  position: relative;
+  color:rgba(0, 0, 0, 0.5);
+  top:-107px;
+  left:0;
+  font-size: 30px;
+  width: 110px;
+  margin: auto;
+}
+
 
 header .middle {
   text-align: center;
@@ -83,6 +137,7 @@ header h2 {
   color:white;
   font-size: 40px;
   margin: 0;
+  margin-top: -150px;
 }
 .rose {
   color: #FF38F3;
@@ -886,6 +941,7 @@ header{
   header .edition {
     top: -13px;
     left: 62px;
+    transform:rotate(90deg);
   }
   .containerCountdown {
     width: 100%;

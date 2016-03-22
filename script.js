@@ -11,54 +11,58 @@ $(document).ready(function() {
   });
   var subject = "";
 
-$("a[href=contact]").on("click", function(e) {
-  e.preventDefault();
-  $(".formContact").removeClass("hide");
-  subject = "Inscription Docker";
-});
 
-
-  $(".cancel").on("click", function(e) {
+  $("a[href=contact]").on("click", function(e) {
     e.preventDefault();
-    $(".formContact").addClass("hide");
+    $(".formContact").removeClass("hide");
+    subject = "Contact Devops-DDay";
   });
 
-  $(".formContact form").submit(function(event) {
-    event.preventDefault();
-    var name = $("input[name=name]").val();
-    var prenom = $("input[name=prenom]").val();
-    var dateFrom = $("input[name=date]").val();
-    var message = $("textarea").val();
-    var entreprise = $("input[name=entreprise]").val();
-    var reply = $("input[name=email]").val();
+    $("a[href=#sponsor]").on("click", function(e) {
+      e.preventDefault();
+      $(".formContact").removeClass("hide");
+      subject = "Sponsor Devops-DDay";
+    });
+
+    $(".cancel").on("click", function(e) {
+      e.preventDefault();
+      $(".formContact").addClass("hide");
+    });
+
+    $(".formContact form").submit(function(event) {
+      event.preventDefault();
+      var name = $("input[name=name]").val();
+      var prenom = $("input[name=prenom]").val();
+      var message = $("textarea").val();
+      var entreprise = $("input[name=entreprise]").val();
+      var reply = $("input[name=email]").val();
 
 
-    $("input[type=text]").val("");
-    $("input[name=email]").val("");
-    $("textarea").val("");
-    $("input[name=date]").val("");
-    $("input[name=entreprise]").val("");
-    $(".formContact").addClass("hide");
+      $("input[type=text]").val("");
+      $("input[name=email]").val("");
+      $("textarea").val("");
+      $("input[name=entreprise]").val("");
+      $(".formContact").addClass("hide");
 
 
-    $.ajax({
-        method: "POST",
-        url: "https://formspree.io/contact@treeptik.fr",
-        data: {
-          name: name,
-          prenom: prenom,
-          entreprise : entreprise,
-          date : dateFrom,
-          _subject: subject,
-          _replyto: reply,
-          message: message
-        },
-        dataType: "json"
-      })
-      .done(function() {
-        alert("Votre e-mail à bien était envoyé !");
-      });
-  });
+      $.ajax({
+          method: "POST",
+          url: "https://formspree.io/l.bernard@treeptik.fr",
+          data: {
+            name: name,
+            prenom: prenom,
+            entreprise : entreprise,
+            _subject: subject,
+            _replyto: reply,
+            message: message
+          },
+          dataType: "json"
+        })
+        .done(function() {
+          alert("Votre e-mail à bien était envoyé !");
+          // $(".formContact").addClass("hide");
+        });
+    });
 
 
   $('.my-slider').unslider({
