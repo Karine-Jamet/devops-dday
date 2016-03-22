@@ -55,18 +55,18 @@ header .earlyBird p {
 header .earlyBird .buy {
   color:white;
   position:absolute;
-  bottom: -30px;
-  left:185px;
+  bottom: -39px;
+  left:190px;
   font-size: 30px;
   margin-left: 0;
   text-shadow: 1px 1px 5px black;
 }
 
 header .tarif{
-    transform: rotate(-40deg);
+  transform: rotate(-40deg);
   position:absolute;
-  top:56px;
-  left: -24px;
+  top:42px;
+  left: -31px;
   font-size: 18px;
   text-align: left;
   z-index: 1000;
@@ -119,8 +119,11 @@ header .middle {
 }
 header .mythique{
   display: inline-block;
-  margin-right: 2%
+  margin-right: 2%;
+
 }
+
+
 header p {
   color: white;
   width: 350px;
@@ -131,6 +134,12 @@ header p {
   line-height: 35px;
   margin-top: 5px;
   margin-bottom: 5px;
+}
+
+header .mythique p {
+  width: auto;
+  padding-right: 0;
+  vertical-align: super;
 }
 header h2 {
   text-align: center;
@@ -156,18 +165,29 @@ header h2 {
   width: auto;
   display: inline-block;
   padding-bottom: 10px;
-  margin-left: 4%;
+  margin:auto;
+  margin-bottom: 4vw;
 }
 
 #countDown .flip-clock-label {
   color:white;
   font-size: 15px;
-}
 
+}
+.buttonScreen{
+  width: 60%;
+  display: inline-block;
+  vertical-align: top;
+
+
+}
 .days .flip-clock-label {
   left:82px;
 }
 
+.buttonTel {
+  display: none;
+}
 header .bottomButton {
   padding-top: 20px;
   vertical-align: middle;
@@ -178,7 +198,7 @@ header .bottomButton {
 header iframe {
   vertical-align: middle;
   margin-right: 3%;
-  width: 30%;
+  width: 30vw;
   height: 16.8vw;;
 }
 
@@ -992,12 +1012,24 @@ display:none;
     margin: 0 auto;
   }
   #countDown {
-    width: 200%;
+    width: 200vw;
     transform: scale(0.4);
     position :relative;
     top : -10px;
     left : -50%;
     margin-bottom: 0;
+  }
+
+  .buttonTel{
+    display: block;
+  }
+
+  .buttonScreen{
+    width: 200vw;
+    margin-left: 50vw;
+  }
+  .buttonScreen a{
+    display: none;
   }
 
   header .soumettre {
