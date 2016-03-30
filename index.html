@@ -13,7 +13,10 @@
 
 
   <meta charset="utf-8" />
+
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Le 7OCTOBRE 2016 DEVOPS-DDAY une journée entière d’échange en compagnie des grands experts reconnus de l’écosystème DevOps/Cloud/Docker." />
+  <meta name="keywords" content="docker, devops, cloud, treeptik, atelier, ddday, training, keynote, developpement, workshop, velodrome, marseille, sud" />
 </head>
 
 <body>
@@ -22,7 +25,13 @@
     <p class="tarif">
       75 Euros et 20 Euros pour les étudiants
     </p>
-    <a href="#" class="earlyBirda"><div class="earlyBird"> <p> SPRING EARLY BIRD </p><p>-50% avant le 20 juin 2016</p><p class="buy"> BUY NOW! </p></div></a>
+    <a href="#" class="earlyBirda">
+      <div class="earlyBird">
+        <p> SPRING EARLY BIRD </p>
+        <p>-30% avant le 20 juin 2016</p>
+        <p class="buy"> BUY NOW! </p>
+      </div>
+    </a>
     <div class="network">
       <a href="https://www.facebook.com/events/1011363562236512/" target="_blank"><i class="fa fa-facebook-square"></i></a>
       <a href="https://twitter.com/treeptik" target="_blank"><i class="fa fa-twitter-square"></i></a>
@@ -30,8 +39,8 @@
     </div>
     <h1>#<span class="rose">D</span>EVOPSDDAY</h1>
     <div class=" edition">
-    <i class="fa fa-comment" id="editionBubble"></i>
-<H2 class="editionText">2<sup>ème</sup> ÉDITION</h2>
+      <i class="fa fa-comment" id="editionBubble"></i>
+      <H2 class="editionText">2<sup>ème</sup> ÉDITION</h2>
     </div>
     <h2><span class="bleu" >7</span> OCTOBRE 2016</h2>
     <div class="middle">
@@ -41,26 +50,9 @@
         <p>DANS UN LIEU MYTHIQUE</p>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/2mYoieF0OOw?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>
       </div>
-  <div class="buttonScreen"><div id="countDown"></div></br>
-  <a href="#">
-    <div class="soumettre">
-      <h3>Soumettre un sujet</h3>
-    </div>
-  </a>
-  <a href="#">
-    <div class="reserver">
-      <h3>Réservez vos places</h3>
-    </div>
-  </a>
-  <a href="contact" target="_blank">
-    <div class="contact">
-      <h3>Contact</h3>
-    </div>
-  </a>
-</div>
-
-      <div class="bottomButton">
-        <div class="buttonTel">
+      <div class="buttonScreen">
+        <div id="countDown"></div>
+        </br>
         <a href="#">
           <div class="soumettre">
             <h3>Soumettre un sujet</h3>
@@ -77,6 +69,25 @@
           </div>
         </a>
       </div>
+
+      <div class="bottomButton">
+        <div class="buttonTel">
+          <a href="#">
+            <div class="soumettre">
+              <h3>Soumettre un sujet</h3>
+            </div>
+          </a>
+          <a href="#">
+            <div class="reserver">
+              <h3>Réservez vos places</h3>
+            </div>
+          </a>
+          <a href="contact" target="_blank">
+            <div class="contact">
+              <h3>Contact</h3>
+            </div>
+          </a>
+        </div>
         <a href="#sponsor" target="_blank">
           <div class="sponsor">
 
@@ -89,27 +100,75 @@
   </header>
 
   <!--     ********************          Sponsor      ***************************               -->
-  <section class="sponsorSec">
+
+<!--Prosedure pour masquer une section :
+Ajouter dans la balise section  /style="display:none;"/
+Il suffit d'enlever le style pour faire apparaitre la section.
+
+Invisible :
+===>   <section class="sponsorSec" style="display:none;" >
+
+Visible :
+=== >   <section class="sponsorSec" >
+-->
+
+  <section class="sponsorSec" style="display:none;" >
     <h2>Nos Sponsors</h2>
 
+    <a href="http://treeptik.fr/" target="_blank">
+      <img class="logoSponso" src='images/sponsor/logo_white_colored.png' alt="logo treeptik" />
+    </a>
 
-    <!-- **img a copier coller et changer SRC par le liens de l'images, Attention a ne pas mettre d'espace dans les nom d'images   -->
-    <a href="Liens vers site" target="_blank"><img class="logoSponso" src='images/sponsor/docker.png' /></a>
-    <a href="Liens vers site" target="_blank"><img class="logoSponso" src='images/sponsor/Oracle-logo.png' /></a>
-    <a href="Liens vers site" target="_blank"><img class="logoSponso" src='images/sponsor/GitHub_Logo.png' /></a>
-    <a href="http://treeptik.fr/" target="_blank"><img class="logoSponso" src='images/sponsor/logo_white_colored.png' /></a>
-
+<!--Example a copier coller, Ajouter site et nom d'image, Attention ! Pas d'espace dans les nom d'images
 
 
-    <!--     ********************          IMG      ***************************               -->
+<a href="Liens vers site" target="_blank">
+  <img class="logoSponso" src='images/sponsor/nom_de_l_image'  alt="Description de l'image"/>
+</a>
+
+
+-->
+<!--     ****************        Ajouter les Images des sponsor ici      ***********************-->
+
+
+
+
+
+<!--     ********************          FIN Des Images sponsors        ************************ -->
     <h2>Nos partenaires medias </h2>
-    <a href="Liens vers site"><img class="logoSponso" src='images/sponsor/logo_LeMagIT.jpg' /></a>
+
+<!--    <a href="Liens vers site" target="_blank">
+      <img class="logoSponso" src='images/sponsor/nom_de_l_image' alt="Description de l'image"/>
+    </a>
+-->
+
+<!--    ****************        Ajouter les Images des Parteniare MEdia ici      ***********************-->
 
 
 
-  </section>
 
-  <!--     ********************          Intervenants     ***************************               -->
+
+
+
+<!--     ********************          FIN Des Images Media        ************************ -->
+
+
+</section >
+
+
+
+<!--     ********************          Intervenants     ***************************               -->
+
+<!--Prosedure pour masquer une section :
+Ajouter dans la balise section  /style="display:none;"/
+Il suffit d'enlever le style pour faire apparaitre la section.
+
+Invisible :
+===>   <section class="speaker" style="display:none;" >
+
+Visible :
+=== >   <section class="speaker" >-->
+
   <section class="speaker">
     <h2>Les intervenants </h2>
 
@@ -133,11 +192,61 @@
       </div>
     </div>
 
+        <div class="speakerProfile">
+          <div class="speakerPhoto" style="background-image:url('images/speaker/y-Eychenne.jpg')"></div>
+          <div class="speakerDesc">
+            <h3>Yves Eychenne</h3>
+            <p>Cloud Advisor</p>
+            <p>Executive Architect</p>
+            <p>BlueMix Evangelist </p>
+            <p>@ IBM</p>
+          </div>
+        </div>
 
+            <div class="speakerProfile">
+              <div class="speakerPhoto" style="background-image:url('images/speaker/y-Eychenne.jpg')"></div>
+              <div class="speakerDesc">
+                <h3>Yves Eychenne</h3>
+                <p>Cloud Advisor</p>
+                <p>Executive Architect</p>
+                <p>BlueMix Evangelist </p>
+                <p>@ IBM</p>
+              </div>
+            </div>
+
+<!--
+
+Exemple d'un block intervenant à copier coller.
+
+
+    <div class="speakerProfile">
+      <div class="speakerPhoto" style="background-image:url('images/speaker/NOM_IMAGE')"></div>
+      <div class="speakerDesc">
+        <h3>NOM DU SPEAKER</h3>
+        <p>PRESENTATION</p>
+        <p>PRESENTATION</p>
+        <p>PRESENTATION</p>
+        <p>@ SOCIETE</p>
+      </div>
+    </div>
+
+
+  -->
+  <!--    ****************        Ajouter les intervenants ici      *********************** -->
+
+
+
+
+
+
+
+
+
+
+  <!--   ********************          FIN Des Intervenants        ************************ -->
 
   </section>
-  <!--     ********************          LA PRESENTATION      ***************************               -->
-
+  <!--     ********************          LA PRESENTATION      ***************************-->
 
   <section class="presentation">
     <div class="topSection">
@@ -157,18 +266,19 @@
 
 
   </section>
-  <!--     ********************          Agenda      ***************************               -->
+  <!--     ********************          Agenda       **********************************    -->
   <section class="agenda">
     <h2>Programme</h2>
     <p>
       Venez découvrir comment des start-up et des sociétés du CAC 40 opèrent une mutation DevOps et inspirez vous des meilleures pratiques.
     </p>
     <img class="firstImg" src="images/planning1.png"><img src="images/planning2.png">
-    <p><em>Ce programe peut faire l'objet de modifications.</em></p>
+    <p><em>Ce programme peut faire l'objet de modifications.</em></p>
 
   </section>
 
-  <!--     ********************          LE SLIDER      ***************************               -->
+  <!--     ********************          LE SLIDER      ********************************     -->
+
 
   <section class="slider">
     <div class="getInspired">
@@ -247,7 +357,9 @@ techniques mais très abordables.</em><i class="fa fa-quote-right roseQL"></i><i
 
     </div>
     <p class="event"> Event by</p>
-    <a href="http://treeptik.fr/" target="_blank"><div class="logo"></div></a>
+    <a href="http://treeptik.fr/" target="_blank">
+      <div class="logo"></div>
+    </a>
   </footer>
 
 
@@ -269,6 +381,7 @@ techniques mais très abordables.</em><i class="fa fa-quote-right roseQL"></i><i
       <input type="submit" value="Envoyer">
     </form>
   </div>
+
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="lib/unslider-master/src/js/unslider.js"></script>
