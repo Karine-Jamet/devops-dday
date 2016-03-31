@@ -71,8 +71,8 @@ header .priceDown {
 header .tarif {
   transform: rotate(-40deg);
   position: absolute;
-  top: 42px;
-  left: -31px;
+  top: 28px;
+  left: -12px;
   font-size: 18px;
   text-align: left;
   z-index: 1000;
