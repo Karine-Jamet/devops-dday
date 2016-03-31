@@ -1,9 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,700);
 @import url(https://fonts.googleapis.com/css?family=Slabo+27px);
-
-
-
 html, body {
   height: 100%;
   width: 100%;
@@ -12,7 +9,6 @@ html, body {
   font-family: 'Oswald', 'Roboto', Arial, Helvetica, sans-serif;
   background-color: black;
 }
-
 a {
   text-decoration: none;
 }
@@ -22,7 +18,7 @@ a {
 header {
   margin: 0;
   min-height: 100%;
-    padding-bottom: 25px;
+  padding-bottom: 25px;
   width: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('images/header.jpeg');
   background-repeat: no-repeat;
@@ -30,64 +26,57 @@ header {
   background-size: cover;
   overflow: hidden;
 }
-
 header .earlyBird {
   background-color: white;
   transform: rotate(-40deg);
-  color:black;
+  color: black;
   text-align: center;
   position: absolute;
-  top:83px;
-  left:-210px;
+  top: 83px;
+  left: -210px;
   width: 800px;
   margin: auto;
   box-shadow: 1px 1px 15px black;
-
 }
 header .earlyBird p {
   color: black;
-  color:rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.5);
   text-align: center;
   margin: auto;
   font-size: 20px;
   margin-left: 194px;
 }
 header .earlyBird .buy {
-  color:white;
-  position:absolute;
+  color: white;
+  position: absolute;
   bottom: -39px;
-  left:190px;
+  left: 190px;
   font-size: 30px;
   margin-left: 0;
   text-shadow: 1px 1px 5px black;
 }
-
 header .priceNormal {
   display: inline-block;
   text-decoration: line-through;
   transform: rotate(-20deg);
   z-index: -1;
-  color : rgba(108, 108, 108,1);
-
+  color: rgba(127, 127, 127, 1);
 }
 header .priceDown {
   font-size: 33px;
   text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
   z-index: 30;
-  color : rgba(127, 127, 127,1);
+  color: rgba(108, 108, 108, 1);
 }
-
-
-header .tarif{
+header .tarif {
   transform: rotate(-40deg);
-  position:absolute;
-  top:42px;
+  position: absolute;
+  top: 42px;
   left: -31px;
   font-size: 18px;
   text-align: left;
   z-index: 1000;
   text-shadow: 1px 1px 5px black;
-
 }
 header h1 {
   font-size: 80px;
@@ -97,18 +86,16 @@ header h1 {
   text-align: center;
   padding-top: 80px;
 }
-
-header #editionBubble{
+header #editionBubble {
   font-size: 150px;
-  color:white;
+  color: white;
   text-align: center;
-
 }
 header .edition {
   width: 100%;
   text-align: center;
   position: relative;
-  top : -84px;
+  top: -84px;
   left: 307px;
   font-family: 'Slabo 27px', serif;
   font-size: 30px;
@@ -116,30 +103,24 @@ header .edition {
   padding: 0;
   transform: rotate(23deg);
 }
-
-.edition .editionText{
+.edition .editionText {
   position: relative;
-  color:rgba(0, 0, 0, 0.5);
-  top:-107px;
-  left:0;
+  color: rgba(0, 0, 0, 0.5);
+  top: -107px;
+  left: 0;
   font-size: 30px;
   width: 110px;
   margin: auto;
 }
-
-
 header .middle {
   text-align: center;
   padding-top: 30px;
   margin-top: 1%;
 }
-header .mythique{
+header .mythique {
   display: inline-block;
   margin-right: 2%;
-
 }
-
-
 header p {
   color: white;
   width: 350px;
@@ -151,7 +132,6 @@ header p {
   margin-top: 5px;
   margin-bottom: 5px;
 }
-
 header .mythique p {
   width: auto;
   padding-right: 0;
@@ -159,7 +139,7 @@ header .mythique p {
 }
 header h2 {
   text-align: center;
-  color:white;
+  color: white;
   font-size: 40px;
   margin: 0;
   margin-top: -150px;
@@ -173,7 +153,6 @@ header h2 {
 .vert {
   color: #00FF5A;
 }
-
 #countDown {
   padding-top: 30px;
   margin: auto;
@@ -181,26 +160,21 @@ header h2 {
   width: auto;
   display: inline-block;
   padding-bottom: 10px;
-  margin:auto;
+  margin: auto;
   margin-bottom: 4vw;
 }
-
 #countDown .flip-clock-label {
-  color:white;
+  color: white;
   font-size: 15px;
-
 }
-.buttonScreen{
+.buttonScreen {
   width: 60%;
   display: inline-block;
   vertical-align: top;
-
-
 }
 .days .flip-clock-label {
-  left:82px;
+  left: 82px;
 }
-
 .buttonTel {
   display: none;
 }
@@ -210,14 +184,13 @@ header .bottomButton {
   margin: auto;
   text-align: center;
 }
-
 header iframe {
   vertical-align: middle;
   margin-right: 3%;
   width: 30vw;
-  height: 16.8vw;;
+  height: 16.8vw;
+  ;
 }
-
 .contact {
   font-size: 20px;
   vertical-align: middle;
@@ -231,10 +204,9 @@ header iframe {
   transition: box-shadow 0.2s;
   box-shadow: 3px 8px 0px 0px #32CBFF;
 }
- .contact:hover{
+.contact:hover {
   box-shadow: 5px 10px 0px 0px #32CBFF;
 }
-
 .reserver {
   vertical-align: middle;
   margin: auto;
@@ -251,12 +223,10 @@ header iframe {
   transition: box-shadow 0.2s;
   font-size: 20px;
 }
-
-.reserver:hover{
+.reserver:hover {
   box-shadow: 5px 10px 0px 0px #FF38F3;
 }
-
-.sponsor{
+.sponsor {
   text-align: center;
   margin: auto;
   display: block;
@@ -264,32 +234,26 @@ header iframe {
   width: 100%;
   margin-top: 5%;
   text-align: center;
-  height:60px;
+  height: 60px;
   background-color: black;
   background-image: url("images/star.png");
   background-repeat: repeat-x;
   background-position: center;
-
 }
-
-
 .sponsor h2 {
-  text-align: center;;
+  text-align: center;
+  ;
   margin: auto;
   background-color: black;
   width: 415px;
 }
-
-
 .sponsor h2:hover {
   text-decoration: underline;
 }
-.clearfix{
-clear: both;
+.clearfix {
+  clear: both;
 }
-
-
-header .soumettre , footer .map{
+header .soumettre, footer .map {
   font-size: 20px;
   vertical-align: middle;
   margin: auto;
@@ -299,62 +263,55 @@ header .soumettre , footer .map{
   width: 200px;
   background-color: rgba(0, 0, 0, 0.3);
   text-align: center;
-  border: 3px solid  #00FF5A;
-  box-shadow: 3px 8px 0px 0px  #00FF5A;
+  border: 3px solid #00FF5A;
+  box-shadow: 3px 8px 0px 0px #00FF5A;
   transition: box-shadow 0.2s;
 }
-header .soumettre:hover, footer .map:hover{
+header .soumettre:hover, footer .map:hover {
   box-shadow: 5px 10px 0px 0px #00FF5A;
 }
-
-header .fa{
+header .fa {
   font-size: 40px;
   margin: 10px;
-  color:#FFF;
+  color: #FFF;
   line-height: 33px;
   border-radius: 10px;
 }
-header .fa-facebook-square{
+header .fa-facebook-square {
   background-color: #FF38F3;
 }
-
-header .fa-twitter-square{
+header .fa-twitter-square {
   background-color: #32CBFF;
 }
-
-header .fa-linkedin-square{
+header .fa-linkedin-square {
   background-color: #00FF5A;
 }
-
-header .network{
+header .network {
   display: inline-block;
   vertical-align: middle;
   text-align: center;
   margin: auto;
-  position:absolute;
-  top:15px;
+  position: absolute;
+  top: 15px;
   right: 1%;
 }
-
 
 /*----------------   Présentation   -----------------*/
 
 section {
   position: relative;
   min-height: 50%;
-  color:white;
+  color: white;
   border-top: 4px dashed white;
   box-sizing: border-box;
   text-align: center;
   padding-bottom: 50px;
 }
-
 .presentation {
   padding-left: 20%;
   padding-right: 20%;
 }
-
-.topSection{
+.topSection {
   padding-top: 30px;
   vertical-align: middle;
   margin: auto;
@@ -366,103 +323,91 @@ section {
   vertical-align: middle;
   margin: auto;
 }
-.topSection .fa-lightbulb-o{
+.topSection .fa-lightbulb-o {
   margin-right: 10px;
-  color : #FF38F3;
+  color: #FF38F3;
 }
-.topSection .fa-comments-o{
-  margin-right: 10px;
-  margin-left: 0px;
-  color : #00FF5A;
-  margin-top:-13px;
-}
-.topSection .fa-rocket{
+.topSection .fa-comments-o {
   margin-right: 10px;
   margin-left: 0px;
-  color : #32CBFF;
+  color: #00FF5A;
+  margin-top: -13px;
 }
-
-.topSection{
+.topSection .fa-rocket {
+  margin-right: 10px;
+  margin-left: 0px;
+  color: #32CBFF;
+}
+.topSection {
   position: relative;
-  width:73%;
+  width: 73%;
 }
 .topSection p {
   width: 30%;
   margin-top: 0;
-
 }
-.topSection .idea{
-text-align: left;
-padding-left:  20px;
-
+.topSection .idea {
+  text-align: left;
+  padding-left: 20px;
 }
-
-.topSection .grade{
-text-align: center;
+.topSection .grade {
+  text-align: center;
 }
-
-.topSection .fusee{
+.topSection .fusee {
   text-align: right;
   padding-right: 20px;
 }
-
 section h2 {
   text-align: left;
-/*margin-left: 30px;*/
-font-size: 30px;
+  /*margin-left: 30px;*/
+  font-size: 30px;
 }
-
 section p {
   display: inline-block;
   width: 35%;
   text-align: justify;
   vertical-align: text-top;
 }
-section .first{
+section .first {
   width: 30%;
   margin-right: 20px;
 }
 
 /*---------------          Section Sponsor                        -------------*/
 
-.sponsorSec{
-
+.sponsorSec {
   padding-right: 20%;
   padding-left: 20%;
-
 }
-
 .sponsorSec img {
   max-width: 30%;
   height: auto;
   vertical-align: middle;
   margin: 10px;
-
 }
 
 /*---------------          Section Speaker                        -------------*/
 
-.speaker{
+.speaker {
   background-image: url('images/stripe.png');
   background-repeat: repeat;
-  color : black;
+  color: black;
   padding-right: 20%;
   padding-left: 20%;
   border-top: 4px dashed black;
   text-align: center;
 }
-
 .speaker .speakerProfile {
   width: 330px;
-  height:140px;
+  height: 140px;
   display: inline-block;
   vertical-align: middle;
   text-align: left;
   background-color: white;
-  margin: 1%;;
+  margin: 1%;
+  ;
 }
-
-.speakerProfile .speakerPhoto{
+.speakerProfile .speakerPhoto {
   width: 140px;
   padding-top: 140px;
   background-repeat: no-repeat;
@@ -470,30 +415,26 @@ section .first{
   background-position: center;
   display: inline-block;
 }
-
-.speakerDesc{
+.speakerDesc {
   display: inline-block;
   width: 175px;
   vertical-align: top;
   margin-left: 10px;
-
 }
-
 .speakerDesc p {
   display: block;
   width: 100%;
   line-height: 10px;
   margin-top: 10px;
 }
-
-.speakerDesc h3{
+.speakerDesc h3 {
   margin-top: 0;
   font-size: 20px;
   margin-bottom: 14px;
 }
 
-
 /* ------------------------------------ Agenda ---------------------------------*/
+
 .agenda {
   padding-left: 10%;
   padding-right: 10%;
@@ -502,18 +443,16 @@ section .first{
   border-top: 4px dashed black;
   color: black;
 }
-
 .agenda img {
   vertical-align: top;
   margin: 10px;
   max-width: 98%;
   height: auto;
 }
-
-.agenda .firstImg{
+.agenda .firstImg {
   margin-top: 8px;
 }
-.agenda p{
+.agenda p {
   width: 100%;
   text-align: center;
 }
@@ -521,94 +460,89 @@ section .first{
   width: 100%;
   font-size: 12px;
 }
-
 .agenda h2 {
   padding-left: 12%;
 }
 
-
 /*----------------               Slider                                ------------*/
 
-.slider{
+.slider {
   height: 50vw;
   overflow: hidden;
 }
 .getInspired {
-  position:absolute;
-  bottom:100px;
-  left:60px;
+  position: absolute;
+  bottom: 100px;
+  left: 60px;
   z-index: 200;
 }
-
 .getInspired .fa {
   font-size: 300px;
-  position:absolute;
-  top:-150px;
+  position: absolute;
+  top: -150px;
   z-index: -10;
 }
-#rose{
-color : #FF38F3;
-left:10px;
-transform: rotate(-7deg);
+#rose {
+  color: #FF38F3;
+  left: 10px;
+  transform: rotate(-7deg);
 }
-#vert{
-  color : #00FF5A;
-  left:20px;
+#vert {
+  color: #00FF5A;
+  left: 20px;
 }
-#bleu{
-color : #32CBFF;
-left: 30px;
-transform: rotate(7deg);
-
+#bleu {
+  color: #32CBFF;
+  left: 30px;
+  transform: rotate(7deg);
 }
-
-.getInspired h2{
+.getInspired h2 {
   font-weight: bold;
   font-size: 40px;
   line-height: 45px;
   margin: 0;
   z-index: 100;
 }
-
 .getInspired h2 #increase {
   color: #00FF5A;
 }
-
 .getInspired p {
   width: auto;
   z-index: 100;
   font-size: 30px;
   margin-top: 0px;
 }
+
 /*------------------- CSS DU SLIDER  ---------------------*/
+
 .my-slider {
-    position: relative;
-    width: 100%;
-    height: 50vw;
-    overflow: auto;
-    padding: 0px;
-    margin: 0px;
+  position: relative;
+  width: 100%;
+  height: 50vw;
+  overflow: auto;
+  padding: 0px;
+  margin: 0px;
 }
 .my-slider ul {
-    padding: 0px;
-    margin: 0px;
+  padding: 0px;
+  margin: 0px;
 }
-.my-slider li{
-padding: 0px;
-margin: 0px;
+.my-slider li {
+  padding: 0px;
+  margin: 0px;
 }
 .my-slider ul li {
-    float:left;
-    padding: 0px;
-    margin: 0px;
-    min-height: 200px;
-    -webkit-background-size: 100% auto;
-    -moz-background-size: 100% auto;
-    -o-background-size: 100% auto;
-    -ms-background-size: 100% auto;
-    background-size: 100% auto;
-    background-position-y: -75px;
-    box-shadow: inset 0 -3px 6px rgba(0,0,0,.1);
+  float: left;
+  padding: 0px;
+  margin: 0px;
+  min-height: 200px;
+  -webkit-background-size: 100% auto;
+  -moz-background-size: 100% auto;
+  -o-background-size: 100% auto;
+  -ms-background-size: 100% auto;
+  background-size: 100% auto;
+  background-position-y: -75px;
+  box-shadow: inset 0 -3px 6px rgba(0, 0, 0, .1);
 }
 .unslider-nav ol {
   list-style: none;
@@ -630,60 +564,84 @@ margin: 0px;
   background: #fff;
   cursor: default;
 }
-
-.unslider{
-  overflow:auto;
-  margin:0;
-  padding:0;
+.unslider {
+  overflow: auto;
+  margin: 0;
+  padding: 0;
   min-height: 50vw;
 }
-.unslider-wrap{
-  position:relative;
+.unslider-wrap {
+  position: relative;
 }
-.unslider-wrap.unslider-carousel>li{
-  float:left;
+.unslider-wrap.unslider-carousel>li {
+  float: left;
 }
-.unslider-vertical>ul{height:100%}
-.unslider-vertical li{float:none;width:100%}
-.unslider-fade{position:relative;}
-.unslider-fade .unslider-wrap li{position:absolute;left:0;top:0;right:0;z-index:8}
-.unslider-fade .unslider-wrap li.unslider-active{z-index:10}
-.unslider li,.unslider ol,.unslider ul{list-style:none;margin:0;padding:0;border:none}
-.unslider-arrow{position:absolute;left:20px;z-index:2;cursor:pointer}
-.unslider-arrow.next{left:auto;right:20px}
-
-
-.imgSlide{
+.unslider-vertical>ul {
+  height: 100%
+}
+.unslider-vertical li {
+  float: none;
+  width: 100%
+}
+.unslider-fade {
+  position: relative;
+}
+.unslider-fade .unslider-wrap li {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 8
+}
+.unslider-fade .unslider-wrap li.unslider-active {
+  z-index: 10
+}
+.unslider li, .unslider ol, .unslider ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: none
+}
+.unslider-arrow {
+  position: absolute;
+  left: 20px;
+  z-index: 2;
+  cursor: pointer
+}
+.unslider-arrow.next {
+  left: auto;
+  right: 20px
+}
+.imgSlide {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   height: 50vw;
 }
-.img1{
+.img1 {
   background-image: url("images/slider/IMG_1079.JPG");
-    background-position: bottom;
+  background-position: bottom;
 }
-.img3{
+.img3 {
   background-image: url("images/slider/IMG_2756.JPG");
   background-position: 50% 6%;
-
 }
-.img2{
+.img2 {
   background-image: url("images/slider/IMG_5292.JPG");
 }
-.img4{
+.img4 {
   background-image: url("images/slider/IMG_5325.JPG");
 }
-.img5{
+.img5 {
   background-image: url("images/slider/IMG_5360.JPG");
 }
-.img6{
+.img6 {
   background-image: url("images/slider/IMG_5376.JPG");
 }
 
 /*------------- footer ------------------*/
 
-footer{
+footer {
   border-top: 4px dashed white;
   min-height: 40%;
   color: white;
@@ -694,7 +652,7 @@ footer .event {
   bottom: 10%;
   right: 350px;
 }
-footer .logo{
+footer .logo {
   background-image: url("images/logo_white_colored.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -704,44 +662,37 @@ footer .logo{
   bottom: 10%;
   right: 50px;
 }
-
-footer .adresse{
+footer .adresse {
   display: inline-block;
   width: 200px;
   margin: auto;
   margin-left: 5%;
   vertical-align: middle;
-
 }
 footer .adresse a {
-  color:white;
+  color: white;
 }
-
 footer .reserver {
-    margin: 0;
-    background-color: black;
+  margin: 0;
+  background-color: black;
 }
-
-footer .map{
+footer .map {
   width: 200px;
   display: inline-block;
   background-color: black;
 }
-
-footer .contact{
+footer .contact {
   margin-left: 35px;
   margin-right: 35px;
   background-color: black;
 }
-
-footer .bottomButton{
-position: absolute;
-top:-60px;
-right: 30px;
-z-index: 500;
+footer .bottomButton {
+  position: absolute;
+  top: -60px;
+  right: 30px;
+  z-index: 500;
 }
-
-footer .cite{
+footer .cite {
   width: 100%;
   text-align: center;
   margin: auto;
@@ -749,43 +700,37 @@ footer .cite{
   font-family: "roboto";
   vertical-align: middle;
   position: absolute;
-  top : 25%;
+  top: 25%;
   left: 0;
-
-
 }
-
 footer .cite p {
-    display : inline-block;
-    width: 40%;
-    text-align: left;
+  display: inline-block;
+  width: 40%;
+  text-align: left;
 }
 footer .cite .fa {
   font-size: 25px;
 }
-footer .cite .bleuQL{
+footer .cite .bleuQL {
   position: relative;
-  top:0;
+  top: 0;
   left: 0;
-  color : #32CBFF;
+  color: #32CBFF;
 }
-footer .cite .vertQL{
+footer .cite .vertQL {
   position: relative;
-  top:-7px;
+  top: -7px;
   left: 15px;
-  color:#00FF5A;
+  color: #00FF5A;
 }
-
-footer .cite .roseQL{
+footer .cite .roseQL {
   position: relative;
-  top:7px;
+  top: 7px;
   left: 26px;
-  color:#FF38F3;
+  color: #FF38F3;
 }
 
 /***-----------------------   Formulaire de contact ------------------------------****/
-
-
 
 .formContact {
   position: fixed;
@@ -795,44 +740,39 @@ footer .cite .roseQL{
   top: 10%;
   left: 50%;
   margin-left: -250px;
-  z-index : 1000000;
+  z-index: 1000000;
   background-color: black;
   border-radius: 10px;
-  border : 4px dashed white;
+  border: 4px dashed white;
   text-align: center;
   padding: 30px;
-  transition : top 1s ease-out;
+  transition: top 1s ease-out;
 }
-
 .formContact .cancel {
-  border : 4px dashed white;
+  border: 4px dashed white;
   border-radius: 50%;
   width: 40px;
   height: 40px;
-  color : white;
-  position:absolute;
-  top : -20px;
+  color: white;
+  position: absolute;
+  top: -20px;
   right: -20px;
   background-color: black;
   font-size: 25px;
-
 }
-
-.formContact .cancel:hover{
-  cursor:pointer;
+.formContact .cancel:hover {
+  cursor: pointer;
 }
-
-.hide{
-  top:-100%;
+.hide {
+  top: -100%;
 }
 .formContact label {
-  color:white;
+  color: white;
   width: 80%;
   display: inline-block;
   text-align: left;
 }
-
-.formContact input{
+.formContact input {
   display: inline-block;
   width: 80%;
   line-height: 30px;
@@ -843,18 +783,15 @@ footer .cite .roseQL{
   box-sizing: border-box;
   color: white;
   background-color: transparent;
-  border:none;
-  border-bottom:2px solid white;
+  border: none;
+  border-bottom: 2px solid white;
 }
-
-.nomPrenom input, .nomPrenom label{
+.nomPrenom input, .nomPrenom label {
   width: 35%;
 }
-
-label[name=prenom], input[name=prenom]{
+label[name=prenom], input[name=prenom] {
   margin-left: 10%;
 }
-
 .formContact textarea {
   display: inline-block;
   width: 80%;
@@ -863,100 +800,87 @@ label[name=prenom], input[name=prenom]{
   margin-bottom: 10px;
   box-sizing: border-box;
   background-color: black;
-  color:white;
-  border:none;
-   background-image: -webkit-linear-gradient(top , transparent, transparent 23px, white 3px);
-    background-size: 100% 25px;
+  color: white;
+  border: none;
+  background-image: -webkit-linear-gradient(top, transparent, transparent 23px, white 3px);
+  background-size: 100% 25px;
 }
-
-.formContact textarea:focus , .formContact input:focus{
+.formContact textarea:focus, .formContact input:focus {
   outline: none;
 }
-
-.formContact input[type=submit]{
+.formContact input[type=submit] {
   border-bottom: none;
   font-weight: bold;
 }
-
-.formContact input[type=submit]:hover{
-  cursor:pointer;
+.formContact input[type=submit]:hover {
+  cursor: pointer;
 }
-
 @media screen and (min-width:640px) and (max-width: 740px) {
-  #countDown{
+  #countDown {
     width: 150%;
     margin-left: 5%;
     transform: scale(0.8);
-}
-
+  }
 }
 
 /*--------------- Version pour telephone ----------------*/
 
 @media screen and (max-width: 640px) {
-  html,body{
+  html, body {
     width: 100%;
     overflow-x: hidden;
   }
-
-header iframe{
-  display:none;
-}
-
-header{
-  margin: 0;
-  min-height: 110%;
-  width: 100%;
-  overflow: hidden;
-  padding-bottom: 15px;
-}
-
-header #editionBubble{
-  font-size: 85px;
-
-}
-header .edition {
-  top : -119px;
-  left: 156px;
-  font-size: 30px;
-  transform: rotate(-23deg);
-}
-
-.edition .editionText{
-  top:-69px;
-  left:0;
-  font-size: 20px;
-}
-
-header .earlyBirda{
-text-align: left;
-}
-header .earlyBird {
-position: relative;
-top:0;
-left:0;
-width: 100%;
-height: auto;
-padding:10px;
-transform: none;
-margin-top: 10px;
-margin-bottom: 10px;
-
-}
-header .earlyBird p {
-display: block;
-margin: 0;
-width: auto;
-font-weight: bold;
-margin: auto;
-line-height: 25px;
-}
-header .earlyBird .buy {
-display:none;
-}
-
-  header .tarif{
-    position:static;
+  header iframe {
+    display: none;
+  }
+  header {
+    margin: 0;
+    min-height: 110%;
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 15px;
+  }
+  header #editionBubble {
+    font-size: 85px;
+  }
+  header .edition {
+    top: -119px;
+    left: 156px;
+    font-size: 30px;
+    transform: rotate(-23deg);
+  }
+  .edition .editionText {
+    top: -69px;
+    left: 0;
+    font-size: 20px;
+  }
+  header .earlyBirda {
+    text-align: left;
+  }
+  header .earlyBird {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    transform: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  header .earlyBird p {
+    display: block;
+    margin: 0;
+    width: auto;
+    font-weight: bold;
+    margin: auto;
+    line-height: 25px;
+  }
+  header .earlyBird .buy {
+    display: none;
+  }
+  header .tarif {
+    position: static;
     margin: 0;
     padding-top: 15px;
     font-size: 15px;
@@ -965,21 +889,17 @@ display:none;
     transform: none;
     width: 100%;
   }
-
-  header .fa{
+  header .fa {
     font-size: 25px;
     margin: 7px;
     line-height: 20px;
   }
-
-  header .network{
+  header .network {
     width: 100%;
     text-align: center;
     margin: auto;
-    position:static;
+    position: static;
   }
-
-
   header h1 {
     font-size: 40px;
     color: white;
@@ -988,27 +908,22 @@ display:none;
     text-align: center;
     padding-top: 10px;
   }
-
   header h2 {
     text-align: center;
-    color:white;
+    color: white;
     font-size: 20px;
     margin: 7px;
     margin-top: -80px;
-
   }
-
-
   header .middle {
     text-align: center;
     padding-top: 20px;
     margin-top: 1%;
   }
-  header .mythique{
+  header .mythique {
     display: inline-block;
     padding-right: 20px;
     padding-left: 20px;
-
   }
   header p {
     display: inline;
@@ -1021,7 +936,6 @@ display:none;
     margin-bottom: 5px;
     padding-right: 0;
   }
-
   .containerCountdown {
     width: 100%;
     text-align: center;
@@ -1030,296 +944,248 @@ display:none;
   #countDown {
     width: 200vw;
     transform: scale(0.4);
-    position :relative;
-    top : -10px;
-    left : -50%;
+    position: relative;
+    top: -10px;
+    left: -50%;
     margin-bottom: 0;
   }
-
-  .buttonTel{
+  .buttonTel {
     display: block;
   }
-
-  .buttonScreen{
+  .buttonScreen {
     width: 200vw;
     margin-left: 50vw;
   }
-  .buttonScreen a{
+  .buttonScreen a {
     display: none;
   }
-
   header .soumettre {
-      font-size: 13px;
-      width: 120px;
-      font-weight: lighter;
-        margin: 20px;
-
-  }
-header .soumettre h3, .contact h3, .reserver h3, footer .map h3{
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.contact {
     font-size: 13px;
     width: 120px;
     font-weight: lighter;
-      margin: 20px;
+    margin: 20px;
   }
-
+  header .soumettre h3, .contact h3, .reserver h3, footer .map h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .contact {
+    font-size: 13px;
+    width: 120px;
+    font-weight: lighter;
+    margin: 20px;
+  }
   .reserver {
     width: 120px;
     font-size: 13px;
     margin: 20px;
     font-weight: lighter;
   }
-
-header .bottomButton{
-  padding: 0;
-  margin-top: -40px;
-}
-
-  .sponsor{
+  header .bottomButton {
+    padding: 0;
+    margin-top: -40px;
+  }
+  .sponsor {
     margin-top: 10%;
     background-position: left;
   }
-
   .sponsor h2 {
     line-height: 60px;
     width: 50%;
   }
-
   /*---------------------   Sponsor    Telephone  ---------------------*/
-
-
-.sponsorSec{
-  padding: 0;
-  padding-bottom: 30px;
-}
-
-.sponsorSec h2 {
-font-size: 25px;
-text-align: left;
-margin-left: 10px;
-}
-
-.sponsorSec img{
-  max-width:70%;
-}
-
-/*---------------------   Speaker    Telephone  ---------------------*/
-
-
-.speaker{
-  padding: 0;
-  padding-bottom: 30px;
-  text-align: center;
-
-}
-
-.speaker h2 {
-  font-size: 25px;
-  text-align: left;
-  margin-left: 10px;
-
-}
-
-/*---------------------   Présentation    Telephone  ---------------------*/
-
-.presentation {
-  padding: 0;
-  padding-bottom: 30px;
-  text-align: center;
-
-}
-
-.presentation h2 {
+  .sponsorSec {
+    padding: 0;
+    padding-bottom: 30px;
+  }
+  .sponsorSec h2 {
+    font-size: 25px;
+    text-align: left;
     margin-left: 10px;
-}
-
-.presentation .topSection{
-  width: 100%;
-}
-.presentation .topSection p{
-  width: 28%;
-}
-.presentation .topSection .grade {
-  vertical-align: bottom;
-
-}
-.presentation .first, .presentation p {
-  width: 65%;
-  margin: 0
-}
-.presentation .first{
-  margin-bottom: 20px;
-}
-/*---------------------   Présentation    Agenda  ---------------------*/
-.agenda {
-  padding: 5px;
-}
-.agenda h2 {
-  margin-left: 5px;
-  padding-left: 0;
-}
-
-.agenda img {
-  margin-left: 0;
-  margin-right: 0;
-}
-
-
-/*---------------------   Présentation    Slider  ---------------------*/
-.slider{
-  height: 100vw;
-  overflow: hidden;
-  padding: 0;
-}
-.getInspired {
-  position:absolute;
-  bottom:10px;
-  left:10px;
-  z-index: 200;
-  width: 60%;
-}
-
-.getInspired .fa {
-  font-size: 120px;
-  position:absolute;
-  top:-42px;
-  z-index: -10;
-}
-#rose{
-color : #FF38F3;
-left:50px;
-transform: rotate(-7deg);
-}
-#vert{
-  color : #00FF5A;
-  left:60px;
-}
-#bleu{
-color : #32CBFF;
-left: 70px;
-transform: rotate(7deg);
-
-}
-
-.getInspired h2{
-  font-weight: bold;
-  font-size: 25px;
-  line-height: 25px;
-  margin: 0;
-  z-index: 100;
-}
-
-.getInspired h2 #increase {
-  color: #00FF5A;
-}
-
-.getInspired p {
-  text-align: left;
-  margin: 0;
-  width: 97%;
-  z-index: 100;
-  font-size: 18px;
-  margin-top: 0px;
-}
-/*------------------- CSS DU SLIDER  ---------------------*/
-.my-slider {
+  }
+  .sponsorSec img {
+    max-width: 70%;
+  }
+  /*---------------------   Speaker    Telephone  ---------------------*/
+  .speaker {
+    padding: 0;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+  .speaker h2 {
+    font-size: 25px;
+    text-align: left;
+    margin-left: 10px;
+  }
+  /*---------------------   Présentation    Telephone  ---------------------*/
+  .presentation {
+    padding: 0;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+  .presentation h2 {
+    margin-left: 10px;
+  }
+  .presentation .topSection {
+    width: 100%;
+  }
+  .presentation .topSection p {
+    width: 28%;
+  }
+  .presentation .topSection .grade {
+    vertical-align: bottom;
+  }
+  .presentation .first, .presentation p {
+    width: 65%;
+    margin: 0
+  }
+  .presentation .first {
+    margin-bottom: 20px;
+  }
+  /*---------------------   Présentation    Agenda  ---------------------*/
+  .agenda {
+    padding: 5px;
+  }
+  .agenda h2 {
+    margin-left: 5px;
+    padding-left: 0;
+  }
+  .agenda img {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  /*---------------------   Présentation    Slider  ---------------------*/
+  .slider {
+    height: 100vw;
+    overflow: hidden;
+    padding: 0;
+  }
+  .getInspired {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    z-index: 200;
+    width: 60%;
+  }
+  .getInspired .fa {
+    font-size: 120px;
+    position: absolute;
+    top: -42px;
+    z-index: -10;
+  }
+  #rose {
+    color: #FF38F3;
+    left: 50px;
+    transform: rotate(-7deg);
+  }
+  #vert {
+    color: #00FF5A;
+    left: 60px;
+  }
+  #bleu {
+    color: #32CBFF;
+    left: 70px;
+    transform: rotate(7deg);
+  }
+  .getInspired h2 {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 25px;
+    margin: 0;
+    z-index: 100;
+  }
+  .getInspired h2 #increase {
+    color: #00FF5A;
+  }
+  .getInspired p {
+    text-align: left;
+    margin: 0;
+    width: 97%;
+    z-index: 100;
+    font-size: 18px;
+    margin-top: 0px;
+  }
+  /*------------------- CSS DU SLIDER  ---------------------*/
+  .my-slider {
     position: relative;
     width: 100%;
     height: 100vw;
     overflow: auto;
     padding: 0px;
     margin: 0px;
-}
-
-
-.unslider{
-  overflow:auto;
-  margin:0;
-  padding:0;
-  min-height: 100vw;
-}
-.imgSlide {
-  height: 100vw;
-}
-
-
-footer .event {
-  position: absolute;
-  bottom: 88px;
-  right: 0px;
-  background-color: transparent;
-  width: 55px;
-}
-
-footer .logo{
-  width: 167px;
-  height: 23px;
-  display : inline-block;
-  vertical-align: bottom;
-  position:absolute;
-  right : 5px;
-  bottom: 59px;
-}
-
-footer .adresse{
-  display: inline-block;
-  width: 200px;
-  margin: auto;
-  vertical-align: bottom;
-}
-
-footer .adresse p {
-  line-height: 15px;
-}
-footer .adresse a {
-  color:white;
-}
-
-footer .reserver {
-  display: inline-block;
+  }
+  .unslider {
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+    min-height: 100vw;
+  }
+  .imgSlide {
+    height: 100vw;
+  }
+  footer .event {
+    position: absolute;
+    bottom: 88px;
+    right: 0px;
+    background-color: transparent;
+    width: 55px;
+  }
+  footer .logo {
+    width: 167px;
+    height: 23px;
+    display: inline-block;
+    vertical-align: bottom;
+    position: absolute;
+    right: 5px;
+    bottom: 59px;
+  }
+  footer .adresse {
+    display: inline-block;
+    width: 200px;
+    margin: auto;
+    vertical-align: bottom;
+  }
+  footer .adresse p {
+    line-height: 15px;
+  }
+  footer .adresse a {
+    color: white;
+  }
+  footer .reserver {
+    display: inline-block;
     margin: 0;
     background-color: black;
     margin-top: 15px;
-}
-
-footer .map{
-  font-size: 13px;
-  display: inline-block;
-  background-color: black;
-  width: 120px;
-  font-weight: lighter;
-  margin-bottom: 15px;
-}
-
-footer .contact{
-  margin: 0;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  background-color: black;
-}
-
-footer .bottomButton{
-position: absolute;
-top:-145px;
-right: 0px;
-width: 135px;
-z-index: 500;
-}
-
-footer .cite{
-  display:none;
-}
-
-.formContact{
-  width: 80%;
-  left:10%;
-  margin: 0;
-  padding: 5px;
-  padding-top: 20px;
-}
-
+  }
+  footer .map {
+    font-size: 13px;
+    display: inline-block;
+    background-color: black;
+    width: 120px;
+    font-weight: lighter;
+    margin-bottom: 15px;
+  }
+  footer .contact {
+    margin: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: black;
+  }
+  footer .bottomButton {
+    position: absolute;
+    top: -145px;
+    right: 0px;
+    width: 135px;
+    z-index: 500;
+  }
+  footer .cite {
+    display: none;
+  }
+  .formContact {
+    width: 80%;
+    left: 10%;
+    margin: 0;
+    padding: 5px;
+    padding-top: 20px;
+  }
 }
