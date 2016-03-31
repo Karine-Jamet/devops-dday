@@ -66,10 +66,8 @@ header .priceNormal {
   display: inline-block;
   text-decoration: line-through;
   transform: rotate(-20deg);
-  position: relative;
-  left: 10px;
   z-index: -1;
-  color : rgba(127, 127, 127,1);
+  color : rgba(108, 108, 108,1);
 
 }
 header .priceDown {
