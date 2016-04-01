@@ -64,9 +64,9 @@ header .priceNormal {
 }
 header .priceDown {
   font-size: 33px;
-  text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
   z-index: 30;
-  color: rgba(108, 108, 108, 1);
+  color: #FF38F3;
+  /*color: #33CCFF;*/
 }
 header .tarif {
   transform: rotate(-40deg);
@@ -236,7 +236,7 @@ header iframe {
   text-align: center;
   height: 60px;
   background-color: black;
-  background-image: url("images/star.png");
+  /*background-image: url("images/star.png");*/
   background-repeat: repeat-x;
   background-position: center;
 }
